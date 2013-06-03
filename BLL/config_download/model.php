@@ -22,7 +22,7 @@ $text.="param='".$_GET['param']."'\n";
 $text.="startDate='".$_GET['startDate']."'\n";
 $text.="days=".$_GET['days']."\n";
 
-$dir='/search/hadoopworkguan/common_config/';
+$dir='/common_config/';
 $fp=fopen($dir."lib/params.py",'w');
 fwrite($fp,$text);
 fclose($fp);
