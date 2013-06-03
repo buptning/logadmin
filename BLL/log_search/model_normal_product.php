@@ -6,8 +6,6 @@ error_reporting(E_ALL);
 
 require '../../Config.php';
 
-
-
 LoadPHPFile::load("lib/DAL/DBShard");
 
 //var_dump($_POST);
@@ -88,7 +86,6 @@ class model {
 		else {
 			echo '过滤字符串不存在';
 		}
-
 
 	}
 

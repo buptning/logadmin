@@ -1,5 +1,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <?php
+/*
+ * author:guanning
+*/
 
 ini_set("display_errors", "On"); 
 error_reporting(E_ALL);
@@ -23,7 +26,7 @@ class model {
 		
 		$this->dataDAL=DBShard::shard(1);
 
-		$this->srcFile="/search/logfilesguan/log_".$this->designedYesDay."/log_opengamehall";
+		$this->srcFile="/log_".$this->designedYesDay."/log_opengamehall";
 		$this->uvdataDict=array();
 		$this->pvdataDict=array();
 	} 

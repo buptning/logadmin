@@ -1,5 +1,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <?php
+/*
+ * author:guanning
+*/
 
 ini_set("display_errors", "On"); 
 error_reporting(E_ALL);

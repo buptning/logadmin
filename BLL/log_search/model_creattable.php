@@ -1,13 +1,12 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <?php
-//author:guanning
-
+/*
+ * author:guanning
+*/
 ini_set("display_errors", "On"); 
 error_reporting(E_ALL);
 
 require '../../Config.php';
-
-
 
 LoadPHPFile::load("lib/DAL/DBShard");
 LoadPHPFile::load("lib/logParser");
@@ -40,18 +39,14 @@ class model {
 		$key=trim($_POST['key']);
 		
 
-		$DB_HOST='10.12.9.160';
+		$DB_HOST='';
 		
 		/*
-		$DB_USER='sogouie';
-		$DB_PWD='sogouie';
-		$DB_NAME='sogouie';
+		$DB_USER='';
+		$DB_PWD='';
+		$DB_NAME='';
 		*/
-		
-		
-		$DB_USER='iestat';
-		$DB_PWD='iestat';
-		$DB_NAME='iestat';
+
 	
 	
 		mysql_connect($DB_HOST,$DB_USER,$DB_PWD) or die("database connect failed");

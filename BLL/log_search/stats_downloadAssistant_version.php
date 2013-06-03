@@ -1,6 +1,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <?php
-//author:guanning
+/*
+ * author:guanning
+*/
 
 ini_set("display_errors", "On"); 
 error_reporting(E_ALL);
@@ -24,7 +26,7 @@ class model {
 		
 		$this->dataDAL=DBShard::shard(1);
 		//原始文件，文件目录改变时，更改此处
-		$this->srcFile="/search/hadoopworkguan/data/log_config_".$this->designedYesDay."downloadAssistant.gif";
+		$this->srcFile="/data/log_config_".$this->designedYesDay."downloadAssistant.gif";
 		echo $this->srcFile."\n";
 		$this->uvdataDict=array();
 		$this->pvdataDict=array();
