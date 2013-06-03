@@ -1,0 +1,4 @@
+.gif	cat /search/hadoopworkguan/data/20130321newsemini_0000 | grep -ai '.gif' | wc -l
+&	cat /search/hadoopworkguan/data/20130321newsemini_0000 | grep -ai '&' | wc -l
+tablename	tablename
+date	20130328

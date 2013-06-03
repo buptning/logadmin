@@ -1,0 +1,5 @@
+&expressinst	cat /search/logfilesguan/log_20130324/log_input/* | grep -ai 'expressinst' | wc -l
+sefile=	cat /search/logfilesguan/log_20130324/log_input/* | grep -ai 'sefile=' | wc -l
+6202_sogou_pinyin_62_6202	cat /search/logfilesguan/log_20130324/log_input/* | grep -ai '6202_sogou_pinyin_62_6202' | wc -l
+tablename	test
+date	20130325
