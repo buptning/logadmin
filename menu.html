@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>menu</title>
+<link rel="stylesheet" href="skin/css/base.css" type="text/css" />
+<link rel="stylesheet" href="skin/css/menu.css" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script language='javascript'>var curopenItem = '1';</script>
+<script language="javascript" type="text/javascript" src="skin/js/frame/menu.js"></script>
+<base target="main" />
+</head>
+<body target="main">
+<table width='99%' height="100%" border='0' cellspacing='0' cellpadding='0'>
+  <tr>
+    <td style='padding-left:3px;padding-top:8px' valign="top">
+	<!-- Item 1 Strat -->
+      <dl class='bitem'>
+        <dt onClick='showHide("items1_1")'><b>浏览器数据查询</b></dt>
+        <dd style='display:block' class='sitem' id='items1_1'>
+          <ul class='sitemu'>
+            <li>
+              <a href='channel_version.php' target='main'>渠道和版本号查询</a>
+            </li>
+            <li>
+		<a href='version_s.php' target='main'>按条件获取机器码</a>
+            </li>
+          </ul>
+        </dd>
+      </dl>
+      <!-- Item 1 End -->
+      <!-- Item 2 Strat -->
+      <dl class='bitem'>
+        <dt onClick='showHide("items2_1")'><b>通用数据处理</b></dt>
+        <dd style='display:block' class='sitem' id='items2_1'>
+          <ul class='sitemu'>
+	    <li><a href='BLL/log_search/view.php' target='main' title='综合日志查询'>日志条件查询</a></li>
+            <li><a href='aa.php' target='main' >求文件间的交、并、差</a></li>
+            <li><a href='#' target='main'>取随机n个机器码</a></li>
+          </ul>
+        </dd>
+      </dl>
+      <!-- Item 2 End -->
+
+   <!-- Item 3 Strat -->
+      <dl class='bitem'>
+        <dt onClick='showHide("items3_1")'><b>hadoop日志处理</b></dt>
+        <dd style='display:block' class='sitem' id='items3_1'>
+          <ul class='sitemu'>
+            <li><a href='BLL/config_download/view.php' target='main' title=''>config日志下载</a></li>
+            <li><a href='#' target='main' title=''></a>ping日志下载</li>
+	    <li><a href='#' target='main' title=''>map reduce任务处理</a></li>
+	    <li><a href='#' target='main' title='config日志查询某个gif下几个字段的出现次数'></a>config日志条件查询</li>
+          </ul>
+        </dd>
+      </dl>
+      <!-- Item 3 End -->
+
+
+	  </td>
+  </tr>
+</table>
+</body>
+</html>

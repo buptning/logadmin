@@ -1,0 +1,4 @@
+.gif	cat data/20130321newsemini_0000 | grep -ai '.gif' | wc -l
+&	cat data/20130321newsemini_0000 | grep -ai '&' | wc -l
+tablename	tablename
+date	20130328

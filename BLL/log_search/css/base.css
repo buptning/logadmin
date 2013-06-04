@@ -1,0 +1,16 @@
+.option {color: gray;}
+
+table { border: none; border-bottom: dashed 1px rgb(207, 207, 207); }
+
+*{font-size:12px;font-family:"宋体";}td{line-height:1.5;}
+
+body{font-size:12px;line-height:1.5;font-family:"宋体";background-color:#FFF;}
+
+form,h1,h2,h3,ul,ol,div{margin:0;padding:0;}
+td,th,div{word-break:break-all;word-wrap:break-word;}
+
+b,strong{color:#666600;}
+li,dd{list-style-type:none;margin:0px;padding:0px;}
+
+
+input{border:1px solid #ababab;height: 18px;line-height: 1.5;}
