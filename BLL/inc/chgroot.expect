@@ -1,9 +1,0 @@
-#!/usr/bin/expect
-#set timeout 5
-set username root
-
-set userpass Sogou-RD@2008
-spawn su $username
-expect "Password:"
-send "$userpass\r"
-interact
