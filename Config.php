@@ -17,10 +17,10 @@ class Config
                 return  $url;
         }
         public  static $config_ab_uri=null;
-        public  static $redis_queue="baidu_data_queue";
+        public  static $redis_queue="data_queue";
         public  static $config_vali_number_length=7;
         //m~E~A许访m~W0m~Z~Dip
-        public  static $config_allowd_ip=array("10.129.41.11"=>1);
+        public  static $config_allowd_ip=array(""=>1);
         public static $debug=1;
 }
 //m~J| 载m~V~G件类
